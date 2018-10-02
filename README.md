@@ -10,7 +10,7 @@ Viper é um padrão de design que implementa o paradigma da 'separação de preo
 
 * **Iteractor:**  tenha uma lógica de negócios de um aplicativo. Primeiramente, faça chamadas de API para buscar dados de uma fonte. Responsável por fazer chamadas de dados, mas não necessariamente de si mesmo.
 
-* **Roteador:**  faz o enquadramento de arame. Ouça o apresentador sobre qual tela apresentar e executa.
+* **WIREFRAME:**  faz o roteamento. Esculta o apresentador sobre qual tela apresentar e executa.
 
 * **Entidade:** Contém classes de modelo simples usadas pelo interator.
 
