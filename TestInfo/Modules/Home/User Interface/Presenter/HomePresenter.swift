@@ -36,8 +36,6 @@ class HomePresenter: HomePresenterInput {
     func didSeleted(item: ContentItem) {
        self.wireframe.showDetails(item: item)
     }
-
-
 }
 
 extension HomePresenter: HomeInteractorOutput{
